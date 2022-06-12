@@ -1,0 +1,19 @@
+.mainHome {
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture {
+    width: 195px;
+}
+
+.div-picture {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(97,91,201);
+    background: linear-gradient(122deg, rgba(97,91,201,1) 0%, rgba(106,106,230,1) 30%, rgba(167,240,255,1) 100%);
+}
