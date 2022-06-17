@@ -1,0 +1,7 @@
+.SectionTitle {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    border-bottom: 5px solid black;
+    margin: 10px;
+}
