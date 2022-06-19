@@ -1,3 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+.name {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4.5rem;
+    color: rgb(4, 79, 114);
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.job {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    font-style: italic;
+    color: rgb(4, 79, 114);
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px darkblue;
+}
+
 .mainHome {
     display: flex;
     flex-direction: column;
@@ -10,17 +31,16 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin-top: 30px;
+    margin-top: 40px;
     justify-content: center;
     align-items: center;
     width: 195px;
-
 }
 
 .div-picture {
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin-top: 20px;
     border-radius: 50%;
     overflow: hidden;
     width: 250px;
@@ -28,6 +48,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    border: 1px solid var(--title-color);
+    /* box-shadow: 4px 4px 10px var(--shadow-blue); */
     background: rgb(97,91,201);
     background: linear-gradient(122deg, rgba(97,91,201,1) 0%, rgba(106,106,230,1) 30%, rgba(167,240,255,1) 100%);
 }

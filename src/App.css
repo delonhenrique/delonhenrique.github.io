@@ -1,13 +1,49 @@
+
+
 * {
   margin: 0;
   padding: 0;
+  --title-color: rgb(9, 43, 116);
+  --shadow-blue: rgb(2, 2, 48);
 }
+
 .App {
   display: flex;
-  height: 100vh;
   justify-content: flex-start;
   align-items: flex-start;
-  background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #bdc3c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #506983, #bdc3c7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #506983, #bdc3c7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  border: 3px solid var(--title-color);
+  border-radius: 15px;
+  background-color: #DBF1FD;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: var(--title-color);
+  box-shadow: 8px 8px 8px var(--shadow-blue);
+  background: #D3CCE3;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card-title {
+  font-size: 1.5rem;
 }

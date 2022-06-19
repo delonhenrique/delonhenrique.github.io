@@ -14,9 +14,9 @@ const Home = (props) => {
                     <img src={profilePicture} alt="" className="profile-picture" />
                 </div>
             </div>
-            <h1>Delon Henrique</h1>
-            <h2>Desenvolvedor</h2>
-            <SectionTitle title="Experiência Profissional" />
+            <h1 className="name">Delon Henrique</h1>
+            <h2 className="job">Desenvolvedor</h2>
+            <SectionTitle title="EXPERIÊNCIA PROFISSIONAL" />
             <ProfessionalExp 
                 title="Docente - Técnico em Mecatrônica"
                 time="5 anos"

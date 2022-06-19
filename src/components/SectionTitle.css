@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 .SectionTitle {
     display: flex;
     align-items: flex-start;
+    flex-wrap: nowrap;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2rem;
+    letter-spacing: 6px;
     width: 90%;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid var(--title-color);
     margin: 10px;
+    color: var(--title-color);
+    text-shadow: 2px 2px 3px var(--shadow-blue);
 }
