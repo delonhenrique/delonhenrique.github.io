@@ -18,6 +18,7 @@
 	height: 70px;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 .Button:hover {
 	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
