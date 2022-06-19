@@ -10,6 +10,7 @@
     width: 90%;
     border-bottom: 5px solid var(--title-color);
     margin: 10px;
+    margin-top: 50PX;
     color: var(--title-color);
-    text-shadow: 2px 2px 3px var(--shadow-blue);
+    text-shadow: 2px 2px 3px rgb(162, 196, 209);
 }

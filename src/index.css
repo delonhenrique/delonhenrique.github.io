@@ -18,3 +18,13 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.inLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
