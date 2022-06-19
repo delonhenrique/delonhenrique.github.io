@@ -1,0 +1,10 @@
+.inLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}

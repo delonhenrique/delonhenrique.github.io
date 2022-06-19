@@ -7,8 +7,8 @@ import ProfessionalExp from "../ProfessionalExp";
 import SectionTitle from "../SectionTitle";
 import Education from "../Education";
 import Skills from "../Skills";
-import Button from "../Button";
 import Goals from "../Goals";
+import Projects from "../Projects";
 
 const Home = (props) => {
     return (
@@ -58,11 +58,8 @@ const Home = (props) => {
             <SectionTitle title="OBJETIVOS" />
             <Goals />
             <SectionTitle title="PROJETOS" />
-            <div className="inLine">
-                <Button title="Netflix Catalog" link="#"/>
-                <Button title="Jump Game"
-                    link="https://delonhenrique.github.io/jump-game/"/>
-            </div>
+            <Projects />
+            
         </div>
     )
 }
